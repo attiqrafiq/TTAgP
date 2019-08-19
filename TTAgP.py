@@ -9,8 +9,8 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
         QtWidgets.QMainWindow.__init__(self)
         Ui_MainWindow.__init__(self)
         self.setupUi(self)
-        self.setFixedSize(self.size())  # Dimensiones fijas
-        self.bottonpred_2.clicked.connect(self.calculation)  # Esto es para ordenar que cuando se presione vaya a calculo
+        self.setFixedSize(self.size())
+        self.bottonpred_2.clicked.connect(self.calculation) 
 
     def calculation(self):
 
